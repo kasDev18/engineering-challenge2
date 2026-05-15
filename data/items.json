@@ -1,7 +1,722 @@
 [
-  { "id": 1, "name": "Laptop Pro", "category": "Electronics", "price": 2499 },
-  { "id": 2, "name": "Noise Cancelling Headphones", "category": "Electronics", "price": 399 },
-  { "id": 3, "name": "Ultra‑Wide Monitor", "category": "Electronics", "price": 999 },
-  { "id": 4, "name": "Ergonomic Chair", "category": "Furniture", "price": 799 },
-  { "id": 5, "name": "Standing Desk", "category": "Furniture", "price": 1199 }
+  {
+    "id": 1,
+    "name": "Pro Laptop 001",
+    "category": "Electronics",
+    "price": 29
+  },
+  {
+    "id": 2,
+    "name": "Pro Monitor 002",
+    "category": "Furniture",
+    "price": 46
+  },
+  {
+    "id": 3,
+    "name": "Pro Headphones 003",
+    "category": "Accessories",
+    "price": 63
+  },
+  {
+    "id": 4,
+    "name": "Pro Keyboard 004",
+    "category": "Office",
+    "price": 80
+  },
+  {
+    "id": 5,
+    "name": "Pro Mouse 005",
+    "category": "Home",
+    "price": 97
+  },
+  {
+    "id": 6,
+    "name": "Pro Webcam 006",
+    "category": "Electronics",
+    "price": 114
+  },
+  {
+    "id": 7,
+    "name": "Pro Speaker 007",
+    "category": "Furniture",
+    "price": 131
+  },
+  {
+    "id": 8,
+    "name": "Pro Tablet 008",
+    "category": "Accessories",
+    "price": 148
+  },
+  {
+    "id": 9,
+    "name": "Pro Chair 009",
+    "category": "Office",
+    "price": 165
+  },
+  {
+    "id": 10,
+    "name": "Pro Desk 010",
+    "category": "Home",
+    "price": 182
+  },
+  {
+    "id": 11,
+    "name": "Pro Lamp 011",
+    "category": "Electronics",
+    "price": 199
+  },
+  {
+    "id": 12,
+    "name": "Pro Bookshelf 012",
+    "category": "Furniture",
+    "price": 216
+  },
+  {
+    "id": 13,
+    "name": "Pro Cabinet 013",
+    "category": "Accessories",
+    "price": 233
+  },
+  {
+    "id": 14,
+    "name": "Pro Rug 014",
+    "category": "Office",
+    "price": 250
+  },
+  {
+    "id": 15,
+    "name": "Pro Sofa 015",
+    "category": "Home",
+    "price": 267
+  },
+  {
+    "id": 16,
+    "name": "Pro Backpack 016",
+    "category": "Electronics",
+    "price": 284
+  },
+  {
+    "id": 17,
+    "name": "Pro Water Bottle 017",
+    "category": "Furniture",
+    "price": 301
+  },
+  {
+    "id": 18,
+    "name": "Pro Notebook 018",
+    "category": "Accessories",
+    "price": 318
+  },
+  {
+    "id": 19,
+    "name": "Pro Pen Set 019",
+    "category": "Office",
+    "price": 335
+  },
+  {
+    "id": 20,
+    "name": "Pro Phone Stand 020",
+    "category": "Home",
+    "price": 352
+  },
+  {
+    "id": 21,
+    "name": "Pro Printer 021",
+    "category": "Electronics",
+    "price": 369
+  },
+  {
+    "id": 22,
+    "name": "Pro Scanner 022",
+    "category": "Furniture",
+    "price": 386
+  },
+  {
+    "id": 23,
+    "name": "Pro Whiteboard 023",
+    "category": "Accessories",
+    "price": 403
+  },
+  {
+    "id": 24,
+    "name": "Pro Stapler 024",
+    "category": "Office",
+    "price": 420
+  },
+  {
+    "id": 25,
+    "name": "Pro File Organizer 025",
+    "category": "Home",
+    "price": 437
+  },
+  {
+    "id": 26,
+    "name": "Pro Blender 026",
+    "category": "Electronics",
+    "price": 454
+  },
+  {
+    "id": 27,
+    "name": "Pro Toaster 027",
+    "category": "Furniture",
+    "price": 471
+  },
+  {
+    "id": 28,
+    "name": "Pro Coffee Maker 028",
+    "category": "Accessories",
+    "price": 488
+  },
+  {
+    "id": 29,
+    "name": "Pro Vacuum 029",
+    "category": "Office",
+    "price": 505
+  },
+  {
+    "id": 30,
+    "name": "Pro Air Purifier 030",
+    "category": "Home",
+    "price": 522
+  },
+  {
+    "id": 31,
+    "name": "Ultra Laptop 031",
+    "category": "Electronics",
+    "price": 539
+  },
+  {
+    "id": 32,
+    "name": "Ultra Monitor 032",
+    "category": "Furniture",
+    "price": 556
+  },
+  {
+    "id": 33,
+    "name": "Ultra Headphones 033",
+    "category": "Accessories",
+    "price": 573
+  },
+  {
+    "id": 34,
+    "name": "Ultra Keyboard 034",
+    "category": "Office",
+    "price": 590
+  },
+  {
+    "id": 35,
+    "name": "Ultra Mouse 035",
+    "category": "Home",
+    "price": 607
+  },
+  {
+    "id": 36,
+    "name": "Ultra Webcam 036",
+    "category": "Electronics",
+    "price": 624
+  },
+  {
+    "id": 37,
+    "name": "Ultra Speaker 037",
+    "category": "Furniture",
+    "price": 641
+  },
+  {
+    "id": 38,
+    "name": "Ultra Tablet 038",
+    "category": "Accessories",
+    "price": 658
+  },
+  {
+    "id": 39,
+    "name": "Ultra Chair 039",
+    "category": "Office",
+    "price": 675
+  },
+  {
+    "id": 40,
+    "name": "Ultra Desk 040",
+    "category": "Home",
+    "price": 692
+  },
+  {
+    "id": 41,
+    "name": "Ultra Lamp 041",
+    "category": "Electronics",
+    "price": 709
+  },
+  {
+    "id": 42,
+    "name": "Ultra Bookshelf 042",
+    "category": "Furniture",
+    "price": 726
+  },
+  {
+    "id": 43,
+    "name": "Ultra Cabinet 043",
+    "category": "Accessories",
+    "price": 743
+  },
+  {
+    "id": 44,
+    "name": "Ultra Rug 044",
+    "category": "Office",
+    "price": 760
+  },
+  {
+    "id": 45,
+    "name": "Ultra Sofa 045",
+    "category": "Home",
+    "price": 777
+  },
+  {
+    "id": 46,
+    "name": "Ultra Backpack 046",
+    "category": "Electronics",
+    "price": 794
+  },
+  {
+    "id": 47,
+    "name": "Ultra Water Bottle 047",
+    "category": "Furniture",
+    "price": 811
+  },
+  {
+    "id": 48,
+    "name": "Ultra Notebook 048",
+    "category": "Accessories",
+    "price": 828
+  },
+  {
+    "id": 49,
+    "name": "Ultra Pen Set 049",
+    "category": "Office",
+    "price": 845
+  },
+  {
+    "id": 50,
+    "name": "Ultra Phone Stand 050",
+    "category": "Home",
+    "price": 862
+  },
+  {
+    "id": 51,
+    "name": "Ultra Printer 051",
+    "category": "Electronics",
+    "price": 879
+  },
+  {
+    "id": 52,
+    "name": "Ultra Scanner 052",
+    "category": "Furniture",
+    "price": 896
+  },
+  {
+    "id": 53,
+    "name": "Ultra Whiteboard 053",
+    "category": "Accessories",
+    "price": 913
+  },
+  {
+    "id": 54,
+    "name": "Ultra Stapler 054",
+    "category": "Office",
+    "price": 930
+  },
+  {
+    "id": 55,
+    "name": "Ultra File Organizer 055",
+    "category": "Home",
+    "price": 947
+  },
+  {
+    "id": 56,
+    "name": "Ultra Blender 056",
+    "category": "Electronics",
+    "price": 964
+  },
+  {
+    "id": 57,
+    "name": "Ultra Toaster 057",
+    "category": "Furniture",
+    "price": 981
+  },
+  {
+    "id": 58,
+    "name": "Ultra Coffee Maker 058",
+    "category": "Accessories",
+    "price": 998
+  },
+  {
+    "id": 59,
+    "name": "Ultra Vacuum 059",
+    "category": "Office",
+    "price": 1015
+  },
+  {
+    "id": 60,
+    "name": "Ultra Air Purifier 060",
+    "category": "Home",
+    "price": 1032
+  },
+  {
+    "id": 61,
+    "name": "Compact Laptop 061",
+    "category": "Electronics",
+    "price": 1049
+  },
+  {
+    "id": 62,
+    "name": "Compact Monitor 062",
+    "category": "Furniture",
+    "price": 1066
+  },
+  {
+    "id": 63,
+    "name": "Compact Headphones 063",
+    "category": "Accessories",
+    "price": 1083
+  },
+  {
+    "id": 64,
+    "name": "Compact Keyboard 064",
+    "category": "Office",
+    "price": 1100
+  },
+  {
+    "id": 65,
+    "name": "Compact Mouse 065",
+    "category": "Home",
+    "price": 1117
+  },
+  {
+    "id": 66,
+    "name": "Compact Webcam 066",
+    "category": "Electronics",
+    "price": 1134
+  },
+  {
+    "id": 67,
+    "name": "Compact Speaker 067",
+    "category": "Furniture",
+    "price": 1151
+  },
+  {
+    "id": 68,
+    "name": "Compact Tablet 068",
+    "category": "Accessories",
+    "price": 1168
+  },
+  {
+    "id": 69,
+    "name": "Compact Chair 069",
+    "category": "Office",
+    "price": 1185
+  },
+  {
+    "id": 70,
+    "name": "Compact Desk 070",
+    "category": "Home",
+    "price": 1202
+  },
+  {
+    "id": 71,
+    "name": "Compact Lamp 071",
+    "category": "Electronics",
+    "price": 1219
+  },
+  {
+    "id": 72,
+    "name": "Compact Bookshelf 072",
+    "category": "Furniture",
+    "price": 1236
+  },
+  {
+    "id": 73,
+    "name": "Compact Cabinet 073",
+    "category": "Accessories",
+    "price": 1253
+  },
+  {
+    "id": 74,
+    "name": "Compact Rug 074",
+    "category": "Office",
+    "price": 1270
+  },
+  {
+    "id": 75,
+    "name": "Compact Sofa 075",
+    "category": "Home",
+    "price": 1287
+  },
+  {
+    "id": 76,
+    "name": "Compact Backpack 076",
+    "category": "Electronics",
+    "price": 1304
+  },
+  {
+    "id": 77,
+    "name": "Compact Water Bottle 077",
+    "category": "Furniture",
+    "price": 1321
+  },
+  {
+    "id": 78,
+    "name": "Compact Notebook 078",
+    "category": "Accessories",
+    "price": 1338
+  },
+  {
+    "id": 79,
+    "name": "Compact Pen Set 079",
+    "category": "Office",
+    "price": 1355
+  },
+  {
+    "id": 80,
+    "name": "Compact Phone Stand 080",
+    "category": "Home",
+    "price": 1372
+  },
+  {
+    "id": 81,
+    "name": "Compact Printer 081",
+    "category": "Electronics",
+    "price": 1389
+  },
+  {
+    "id": 82,
+    "name": "Compact Scanner 082",
+    "category": "Furniture",
+    "price": 1406
+  },
+  {
+    "id": 83,
+    "name": "Compact Whiteboard 083",
+    "category": "Accessories",
+    "price": 1423
+  },
+  {
+    "id": 84,
+    "name": "Compact Stapler 084",
+    "category": "Office",
+    "price": 1440
+  },
+  {
+    "id": 85,
+    "name": "Compact File Organizer 085",
+    "category": "Home",
+    "price": 1457
+  },
+  {
+    "id": 86,
+    "name": "Compact Blender 086",
+    "category": "Electronics",
+    "price": 1474
+  },
+  {
+    "id": 87,
+    "name": "Compact Toaster 087",
+    "category": "Furniture",
+    "price": 1491
+  },
+  {
+    "id": 88,
+    "name": "Compact Coffee Maker 088",
+    "category": "Accessories",
+    "price": 1508
+  },
+  {
+    "id": 89,
+    "name": "Compact Vacuum 089",
+    "category": "Office",
+    "price": 1525
+  },
+  {
+    "id": 90,
+    "name": "Compact Air Purifier 090",
+    "category": "Home",
+    "price": 1542
+  },
+  {
+    "id": 91,
+    "name": "Wireless Laptop 091",
+    "category": "Electronics",
+    "price": 1559
+  },
+  {
+    "id": 92,
+    "name": "Wireless Monitor 092",
+    "category": "Furniture",
+    "price": 1576
+  },
+  {
+    "id": 93,
+    "name": "Wireless Headphones 093",
+    "category": "Accessories",
+    "price": 1593
+  },
+  {
+    "id": 94,
+    "name": "Wireless Keyboard 094",
+    "category": "Office",
+    "price": 1610
+  },
+  {
+    "id": 95,
+    "name": "Wireless Mouse 095",
+    "category": "Home",
+    "price": 1627
+  },
+  {
+    "id": 96,
+    "name": "Wireless Webcam 096",
+    "category": "Electronics",
+    "price": 1644
+  },
+  {
+    "id": 97,
+    "name": "Wireless Speaker 097",
+    "category": "Furniture",
+    "price": 1661
+  },
+  {
+    "id": 98,
+    "name": "Wireless Tablet 098",
+    "category": "Accessories",
+    "price": 1678
+  },
+  {
+    "id": 99,
+    "name": "Wireless Chair 099",
+    "category": "Office",
+    "price": 1695
+  },
+  {
+    "id": 100,
+    "name": "Wireless Desk 100",
+    "category": "Home",
+    "price": 1712
+  },
+  {
+    "id": 101,
+    "name": "Wireless Lamp 101",
+    "category": "Electronics",
+    "price": 1729
+  },
+  {
+    "id": 102,
+    "name": "Wireless Bookshelf 102",
+    "category": "Furniture",
+    "price": 1746
+  },
+  {
+    "id": 103,
+    "name": "Wireless Cabinet 103",
+    "category": "Accessories",
+    "price": 1763
+  },
+  {
+    "id": 104,
+    "name": "Wireless Rug 104",
+    "category": "Office",
+    "price": 1780
+  },
+  {
+    "id": 105,
+    "name": "Wireless Sofa 105",
+    "category": "Home",
+    "price": 1797
+  },
+  {
+    "id": 106,
+    "name": "Wireless Backpack 106",
+    "category": "Electronics",
+    "price": 1814
+  },
+  {
+    "id": 107,
+    "name": "Wireless Water Bottle 107",
+    "category": "Furniture",
+    "price": 1831
+  },
+  {
+    "id": 108,
+    "name": "Wireless Notebook 108",
+    "category": "Accessories",
+    "price": 1848
+  },
+  {
+    "id": 109,
+    "name": "Wireless Pen Set 109",
+    "category": "Office",
+    "price": 1865
+  },
+  {
+    "id": 110,
+    "name": "Wireless Phone Stand 110",
+    "category": "Home",
+    "price": 1882
+  },
+  {
+    "id": 111,
+    "name": "Wireless Printer 111",
+    "category": "Electronics",
+    "price": 1899
+  },
+  {
+    "id": 112,
+    "name": "Wireless Scanner 112",
+    "category": "Furniture",
+    "price": 1916
+  },
+  {
+    "id": 113,
+    "name": "Wireless Whiteboard 113",
+    "category": "Accessories",
+    "price": 1933
+  },
+  {
+    "id": 114,
+    "name": "Wireless Stapler 114",
+    "category": "Office",
+    "price": 1950
+  },
+  {
+    "id": 115,
+    "name": "Wireless File Organizer 115",
+    "category": "Home",
+    "price": 1967
+  },
+  {
+    "id": 116,
+    "name": "Wireless Blender 116",
+    "category": "Electronics",
+    "price": 1984
+  },
+  {
+    "id": 117,
+    "name": "Wireless Toaster 117",
+    "category": "Furniture",
+    "price": 2001
+  },
+  {
+    "id": 118,
+    "name": "Wireless Coffee Maker 118",
+    "category": "Accessories",
+    "price": 2018
+  },
+  {
+    "id": 119,
+    "name": "Wireless Vacuum 119",
+    "category": "Office",
+    "price": 2035
+  },
+  {
+    "id": 120,
+    "name": "Wireless Air Purifier 120",
+    "category": "Home",
+    "price": 2052
+  }
 ]
