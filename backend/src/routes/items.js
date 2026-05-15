@@ -10,23 +10,27 @@ function readData() {
   return JSON.parse(raw);
 }
 
-// GET /api/items
+// GET /api/items?page=1&limit=10&q=search
 router.get('/', (req, res, next) => {
   try {
     const data = readData();
-    const { limit, q } = req.query;
+    const { q, page: pageParam, limit: limitParam } = req.query;
     let results = data;
 
     if (q) {
-      // Simple substring search (sub‑optimal)
-      results = results.filter(item => item.name.toLowerCase().includes(q.toLowerCase()));
+      const term = q.toLowerCase();
+      results = results.filter(item => item.name.toLowerCase().includes(term));
     }
 
-    if (limit) {
-      results = results.slice(0, parseInt(limit));
-    }
+    const total = results.length;
+    const limit = Math.min(Math.max(parseInt(limitParam, 10) || 10, 1), 100);
+    const requestedPage = Math.max(parseInt(pageParam, 10) || 1, 1);
+    const totalPages = Math.max(Math.ceil(total / limit), 1);
+    const page = Math.min(requestedPage, totalPages);
+    const offset = (page - 1) * limit;
+    const items = results.slice(offset, offset + limit);
 
-    res.json(results);
+    res.json({ items, total, page, limit, totalPages });
   } catch (err) {
     next(err);
   }
