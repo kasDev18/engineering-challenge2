@@ -8,10 +8,8 @@ function Items() {
   useEffect(() => {
     let active = true;
 
-    // Intentional bug: setState called after component unmount if request is slow
-    fetchItems().catch(console.error);
+    fetchItems(() => active).catch(console.error);
 
-    // Clean‑up to avoid memory leak (candidate should implement)
     return () => {
       active = false;
     };
