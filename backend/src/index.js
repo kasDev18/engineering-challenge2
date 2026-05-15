@@ -5,6 +5,7 @@ const killPort = require('kill-port');
 const path = require('path');
 const itemsRouter = require('./routes/items');
 const statsRouter = require('./routes/stats');
+const { startStatsWatcher, stopStatsWatcher, refreshCache } = require('./utils/statsCache');
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 4001;
@@ -31,10 +32,13 @@ if (process.env.NODE_ENV === 'production') {
 const startServer = (port) => {
     const server = app.listen(port, () => {
         console.log(`Backend running on http://localhost:${port}`);
+        refreshCache().catch((err) => console.error('Failed to warm stats cache:', err));
+        startStatsWatcher();
     });
 
     const shutdownHandler = (signal) => {
         console.log(`\nCaught ${signal}. Shutting down gracefully...`);
+        stopStatsWatcher();
         server.close(() => {
             console.log('Server closed. Port released.');
             process.exit(0);
