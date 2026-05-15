@@ -8,9 +8,11 @@ const statsRouter = require('./routes/stats');
 
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 4001;
+const APP_URL=3000;
 
 // Middleware
-app.use(cors({ origin: `http://localhost:${PORT}` }));
+app.use(cors({ origin: `http://localhost:${APP_URL}`,  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'] }));
 app.use(express.json());
 app.use(morgan('dev'));
 
